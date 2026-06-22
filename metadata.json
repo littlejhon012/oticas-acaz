@@ -1,0 +1,6 @@
+{
+  "name": "Ótica Acaz",
+  "description": "Site profissional, moderno e imersivo para a Ótica Acaz. Destaca a elegância das armações exclusivas, exames de vista especializados e agendamento rápido via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
