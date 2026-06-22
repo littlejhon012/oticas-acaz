@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Premium Royal Optical Blue from Clean Minimalism */
+  --color-brand-blue-50: #f4f6fc;
+  --color-brand-blue-100: #e5ebf8;
+  --color-brand-blue-200: #cbd9f3;
+  --color-brand-blue-600: #1E3A8A;
+  --color-brand-blue-700: #162d6b;
+  --color-brand-blue-800: #0f1e4c;
+  --color-brand-blue-950: #0a122c;
+
+  /* Sophisticated Gold / Warm Amber Sun */
+  --color-brand-yellow-50: #fffbeb;
+  --color-brand-yellow-100: #fef3c7;
+  --color-brand-yellow-450: #fbc02d;
+  --color-brand-yellow-400: #FBBF24;
+  --color-brand-yellow-500: #f59e0b;
+  --color-brand-yellow-600: #d97706;
+  --color-brand-yellow-700: #b45309;
+
+  /* Earthy Warm Natural Grays & Sands (Clean Minimalism canvas) */
+  --color-natural-50: #FDFDFB;
+  --color-natural-100: #f9f9f6;
+  --color-natural-200: #f3f2ed;
+  --color-natural-800: #3a3a3a;
+  --color-natural-900: #2C2C2C;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-natural-50);
+    color: var(--color-natural-900);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Animations and Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-natural-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-blue-200);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-blue-600);
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2.5s infinite ease-in-out;
+}
