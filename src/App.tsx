@@ -67,7 +67,7 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen font-sans bg-brand-blue-950 text-white overflow-x-hidden selection:bg-brand-blue-100 selection:text-brand-blue-100" id="otica-root">
+    <div className="relative min-h-screen font-sans bg-brand-blue-950 text-white overflow-x-hidden selection:bg-brand-blue-100 selection:text-gray-200" id="otica-root">
       
       {/* EXCLUSIVE TOP ANNOUNCEMENT BAR */}
       <div className="bg-brand-blue-950 text-white text-xs py-2 px-4 border-b border-brand-blue-800 text-center relative z-40 font-medium" id="top-bar">
@@ -98,7 +98,7 @@ export default function App() {
               />
             </div>
             <div>
-              <span className="text-xl font-serif font-bold text-[#81a1c9] tracking-tight block">
+              <span className="text-xl font-serif font-bold text-gray-100 tracking-tight block">
                 Óticas <span className="text-[#d9bc06] font-sans font-extrabold uppercase text-[15px] tracking-widest block sm:inline sm:text-lg sm:capitalize sm:font-serif leading-none">Acaz</span>
               </span>
               <span className="text-[10px] text-gray-400 tracking-widest font-mono uppercase block -mt-1 leading-none">
@@ -108,18 +108,18 @@ export default function App() {
           </a>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold tracking-wide text-[#81a1c9]/80">
-            <a href="#produtos-exclusivos" className="hover:text-[#335b9d] transition-colors">Nossa Loja</a>
-            <a href="#cuidados-clinicos" className="hover:text-[#335b9d] transition-colors">Exames de Vista</a>
-            <a href="#sobre-nos" className="hover:text-[#335b9d] transition-colors">Por Que Nós?</a>
-            <a href="#depoimentos" className="hover:text-[#335b9d] transition-colors">Opiniões</a>
+          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold tracking-wide text-gray-100/80">
+            <a href="#produtos-exclusivos" className="hover:text-gray-300 transition-colors">Nossa Loja</a>
+            <a href="#cuidados-clinicos" className="hover:text-gray-300 transition-colors">Exames de Vista</a>
+            <a href="#sobre-nos" className="hover:text-gray-300 transition-colors">Por Que Nós?</a>
+            <a href="#depoimentos" className="hover:text-gray-300 transition-colors">Opiniões</a>
           </nav>
 
           {/* QUICK HEADER CTA */}
           <div className="flex items-center gap-3">
             <a 
               href="tel:1141257371" 
-              className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-[#335b9d] transition-colors px-3 py-2"
+              className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-gray-300 transition-colors px-3 py-2"
               id="header-phone-accent"
             >
               <Phone className="w-4 h-4 text-[#d9bc06]" />
@@ -162,8 +162,8 @@ export default function App() {
               </div>
 
               {/* HEADING (EMOTIONAL & FORMIDABLE) */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-[#81a1c9] leading-[1.1] mb-6">
-                A vida é feita de detalhes. <span className="text-[#335b9d] block italic font-medium font-serif mt-1">Enxergue-os com afeto e elegância.</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-gray-100 leading-[1.1] mb-6">
+                A vida é feita de detalhes. <span className="text-gray-300 block italic font-medium font-serif mt-1">Enxergue-os com afeto e elegância.</span>
               </h1>
 
               {/* SUBHEADLINE (WARM, HUMAN & EMOTIONAL) */}
@@ -197,15 +197,15 @@ export default function App() {
               {/* CLINICAL PROOFS */}
               <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 pt-8 border-t border-brand-blue-100 w-full" id="hero-bullet-trust">
                 <div>
-                  <span className="text-2xl sm:text-3xl font-bold text-[#81a1c9] block">100%</span>
+                  <span className="text-2xl sm:text-3xl font-bold text-gray-100 block">100%</span>
                   <span className="text-xs sm:text-sm text-gray-400">Exatidão de Grau</span>
                 </div>
                 <div>
-                  <span className="text-2xl sm:text-3xl font-bold text-[#81a1c9] block">+5 mil</span>
+                  <span className="text-2xl sm:text-3xl font-bold text-gray-100 block">+5 mil</span>
                   <span className="text-xs sm:text-sm text-gray-400">Olhares Cuidando</span>
                 </div>
                 <div>
-                  <span className="text-2xl sm:text-3xl font-bold text-[#81a1c9] block">40 min</span>
+                  <span className="text-2xl sm:text-3xl font-bold text-gray-100 block">40 min</span>
                   <span className="text-xs sm:text-sm text-gray-400">Montagem Expressa</span>
                 </div>
               </div>
@@ -222,7 +222,7 @@ export default function App() {
                     <Award className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="font-extrabold text-[#81a1c9] text-sm block">Premium Care</span>
+                    <span className="font-extrabold text-gray-100 text-sm block">Premium Care</span>
                     <span className="text-[10px] text-gray-400 uppercase font-bold tracking-wider">Showroom Exclusivo</span>
                   </div>
                 </div>
@@ -238,7 +238,7 @@ export default function App() {
                 </div>
 
                 {/* Main Framed Hero Image */}
-                <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white ring-1 ring-brand-blue-100 bg-brand-blue-900 group">
+                <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white ring-1 ring-brand-blue-100 bg-brand-blue-800 group">
                   <img
                     src={imgHeroClassic}
                     alt="Casal elegante sorrindo com óculos de luxo Ótica Acaz"
@@ -263,8 +263,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-[#335b9d] font-mono text-xs uppercase tracking-widest font-bold block mb-2">História e Compromisso</span>
-            <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-[#81a1c9]">
+            <span className="text-gray-300 font-mono text-xs uppercase tracking-widest font-bold block mb-2">História e Compromisso</span>
+            <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-gray-100">
               O cuidado com seus olhos merece um atendimento humano.
             </h2>
             <div className="w-16 h-1 bg-[#d9bc06] mx-auto mt-4 rounded-full"></div>
@@ -302,16 +302,16 @@ export default function App() {
                   id={`pillar-card-${idx}`}
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-xl bg-brand-blue-50 text-[#335b9d] flex items-center justify-center mb-6 border border-brand-blue-100">
+                    <div className="w-12 h-12 rounded-xl bg-brand-blue-50 text-gray-300 flex items-center justify-center mb-6 border border-brand-blue-100">
                       <IconComp className="w-6 h-6" />
                     </div>
                     <span className="text-[10px] font-mono font-bold text-[#d9bc06] uppercase tracking-widest block mb-2">
                       {pillar.badge}
                     </span>
-                    <h3 className="text-lg font-bold text-[#81a1c9] mb-3">{pillar.title}</h3>
+                    <h3 className="text-lg font-bold text-gray-100 mb-3">{pillar.title}</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">{pillar.desc}</p>
                   </div>
-                  <div className="mt-6 pt-4 border-t border-brand-blue-800/50 flex items-center text-[#335b9d] text-xs font-semibold gap-1">
+                  <div className="mt-6 pt-4 border-t border-brand-blue-800/50 flex items-center text-gray-300 text-xs font-semibold gap-1">
                     Saúde em Primeiro Lugar <CheckCircle className="w-3.5 h-3.5 text-[#d9bc06]" />
                   </div>
                 </div>
@@ -337,7 +337,7 @@ export default function App() {
                   <Check className="w-5 h-5 stroke-[3]" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-[#81a1c9] block">Higienização Total</h4>
+                  <h4 className="text-xs font-bold text-gray-100 block">Higienização Total</h4>
                   <p className="text-[11px] text-gray-400">Aparelhos monitorados e sanitizados entre exames.</p>
                 </div>
               </div>
@@ -356,11 +356,11 @@ export default function App() {
 
             {/* Content info column */}
             <div className="lg:col-span-6 text-left flex flex-col justify-center items-start" id="clinic-content-side">
-              <div className="bg-brand-blue-50 text-[#335b9d] text-xs font-bold font-mono px-3.5 py-1.5 rounded-full mb-4">
+              <div className="bg-brand-blue-50 text-gray-300 text-xs font-bold font-mono px-3.5 py-1.5 rounded-full mb-4">
                 Consultório Optométrico Licenciado
               </div>
               
-              <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-[#81a1c9] mb-6">
+              <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-gray-100 mb-6">
                 Exames de alta precisão com médicos e especialistas
               </h2>
               
@@ -374,7 +374,7 @@ export default function App() {
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#81a1c9]">Aparelhos Digitais</h4>
+                    <h4 className="text-sm font-semibold text-gray-100">Aparelhos Digitais</h4>
                     <p className="text-xs text-gray-400 mt-0.5">Exatidão instantânea no mapeamento da visão.</p>
                   </div>
                 </div>
@@ -384,7 +384,7 @@ export default function App() {
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#81a1c9]">Optometristas Credenciados</h4>
+                    <h4 className="text-sm font-semibold text-gray-100">Optometristas Credenciados</h4>
                     <p className="text-xs text-gray-400 mt-0.5">Profissionais calmos e detalhistas na análise.</p>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function App() {
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#81a1c9]">Montagem Express</h4>
+                    <h4 className="text-sm font-semibold text-gray-100">Montagem Express</h4>
                     <p className="text-xs text-gray-400 mt-0.5">Laboratório próprio reduz o tempo de confecção.</p>
                   </div>
                 </div>
@@ -404,7 +404,7 @@ export default function App() {
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#81a1c9]">Retorno de Adaptação</h4>
+                    <h4 className="text-sm font-semibold text-gray-100">Retorno de Adaptação</h4>
                     <p className="text-xs text-gray-400 mt-0.5">Acompanhamento completo de adaptação com lentes.</p>
                   </div>
                 </div>
@@ -425,17 +425,17 @@ export default function App() {
       </section>
 
       {/* CORE EXPERIENCE - ATTRACT CUSTOMERS TO STORE */}
-      <section className="bg-brand-blue-900 py-20 sm:py-28 text-left border-b border-brand-blue-800" id="produtos-exclusivos">
+      <section className="bg-brand-blue-800 py-20 sm:py-28 text-left border-b border-brand-blue-800" id="produtos-exclusivos">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
             {/* Content Side: Why in-person matters */}
             <div className="lg:col-span-7 flex flex-col items-start relative z-10">
-              <span className="text-[#335b9d] font-bold font-mono text-xs uppercase tracking-widest block mb-2">
+              <span className="text-gray-300 font-bold font-mono text-xs uppercase tracking-widest block mb-2">
                 Experimentação Presencial
               </span>
-              <h2 className="text-3xl sm:text-4xl font-serif text-[#81a1c9] font-semibold mb-6 leading-tight">
+              <h2 className="text-3xl sm:text-4xl font-serif text-gray-100 font-semibold mb-6 leading-tight">
                 Por que escolher seus óculos pessoalmente faz toda a diferença?
               </h2>
               <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-8">
@@ -445,11 +445,11 @@ export default function App() {
               {/* Benefits list */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mb-8">
                 <div className="flex gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-[#152540] text-[#335b9d] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-blue-800 text-gray-300 flex items-center justify-center shrink-0">
                     <Glasses className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm text-[#81a1c9]">Ajuste Anatômico Sob Medida</h4>
+                    <h4 className="font-bold text-sm text-gray-100">Ajuste Anatômico Sob Medida</h4>
                     <p className="text-xs text-gray-400 mt-1 leading-relaxed">
                       Nossos especialistas realizam o ajuste exato das hastes e plaquetas no seu rosto para eliminar qualquer pressão ou desconforto.
                     </p>
@@ -457,11 +457,11 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-[#152540] text-[#335b9d] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-blue-800 text-gray-300 flex items-center justify-center shrink-0">
                     <Sparkles className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm text-[#81a1c9]">Curadoria e Textura Real</h4>
+                    <h4 className="font-bold text-sm text-gray-100">Curadoria e Textura Real</h4>
                     <p className="text-xs text-gray-400 mt-1 leading-relaxed">
                       Sinta na pele o toque do legítimo acetato italiano polido à mão, o peso pluma do titânio espacial e a robustez da fibra de carbono.
                     </p>
@@ -469,11 +469,11 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-[#152540] text-[#335b9d] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-blue-800 text-gray-300 flex items-center justify-center shrink-0">
                     <Smile className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm text-[#81a1c9]">Consultoria Estética Express</h4>
+                    <h4 className="font-bold text-sm text-gray-100">Consultoria Estética Express</h4>
                     <p className="text-xs text-gray-400 mt-1 leading-relaxed">
                       Análise presencial das suas expressões e traços faciais para sugerir o modelo que melhor valoriza o seu formato de sobrancelhas e bochechas.
                     </p>
@@ -481,11 +481,11 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-[#152540] text-[#335b9d] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-blue-800 text-gray-300 flex items-center justify-center shrink-0">
                     <ShieldCheck className="w-5 h-5 animate-pulse" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm text-[#81a1c9]">Centragem Pupilográfica</h4>
+                    <h4 className="font-bold text-sm text-gray-100">Centragem Pupilográfica</h4>
                     <p className="text-xs text-gray-400 mt-1 leading-relaxed">
                       Medimos com precisão milimétrica a distância pupilar com equipamentos físicos digitais, evitando cansaço visual e distorções nas lentes.
                     </p>
@@ -507,7 +507,7 @@ export default function App() {
                   href="https://maps.google.com/?q=R.+Dr.+Fl%C3%A1quer,+209+-+Centro,+S%C3%A3o+Bernardo+do+Campo+-+SP,+09710-180"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-[#0c172a] hover:bg-[#152540] text-white font-semibold text-center text-sm py-4 px-8 rounded-xl border border-gray-200 shadow-sm transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
+                  className="bg-brand-blue-800 hover:bg-brand-blue-800 text-white font-semibold text-center text-sm py-4 px-8 rounded-xl border border-gray-200 shadow-sm transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
                 >
                   <MapPin className="w-4 h-4 text-[#d9bc06]" />
                   Ver Rota no Google Maps
@@ -521,7 +521,7 @@ export default function App() {
                 
                 {/* Micro ornament overlay */}
                 <div className="absolute -top-5 -right-5 bg-brand-blue-950 p-4 rounded-2xl shadow-xl border border-brand-blue-150 flex flex-col items-start gap-1 z-20 max-w-[200px]">
-                  <span className="text-[10px] text-[#335b9d] font-bold uppercase tracking-wider block">Cafezinho Gourmet</span>
+                  <span className="text-[10px] text-gray-300 font-bold uppercase tracking-wider block">Cafezinho Gourmet</span>
                   <p className="text-[11px] text-gray-400 leading-tight">
                     Preparamos um delicioso café espresso grátis durante a sua escolha de modelos.
                   </p>
@@ -529,7 +529,7 @@ export default function App() {
 
                 {/* Main Showroom Card with image inside */}
                 <div className="bg-brand-blue-950 rounded-[2.5rem] border border-gray-150 p-6 shadow-xl relative overflow-hidden flex flex-col">
-                  <div className="relative aspect-[4/3] rounded-[1.8rem] overflow-hidden bg-brand-blue-900 border border-brand-blue-800">
+                  <div className="relative aspect-[4/3] rounded-[1.8rem] overflow-hidden bg-brand-blue-800 border border-brand-blue-800">
                     <img
                       src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMVXPjPXwCdz1ssaxWw5YK126H8Lq7zbacj4Pg0EknY16hwMojWV8BMdTIxJ2gJsu9YcjAGxgBvV6KOt7CgXqBtp-KycF53DxXrKTiH7hvTrVLrpcosyrReDjVM8fiBo1Ja6sE=s680-w680-h510-rw"
                       alt="Nossos modelos de óculos disponíveis para experimentação na loja"
@@ -542,7 +542,7 @@ export default function App() {
                   </div>
 
                   <div className="mt-6 text-left">
-                    <h3 className="font-serif font-semibold text-lg text-[#81a1c9] mb-2">
+                    <h3 className="font-serif font-semibold text-lg text-gray-100 mb-2">
                       Nosso Ambiente de Atendimento
                     </h3>
                     <p className="text-xs text-gray-400 leading-relaxed mb-4">
@@ -550,9 +550,9 @@ export default function App() {
                     </p>
 
                     <div className="bg-brand-blue-50/50 rounded-2xl p-4 border border-brand-blue-100/60 flex items-start gap-3">
-                      <Clock className="w-5 h-5 text-[#335b9d] shrink-0 mt-0.5" />
+                      <Clock className="w-5 h-5 text-gray-300 shrink-0 mt-0.5" />
                       <div>
-                        <span className="block text-xs font-bold text-[#81a1c9] uppercase tracking-wide">Experimentação Sem Fila</span>
+                        <span className="block text-xs font-bold text-gray-100 uppercase tracking-wide">Experimentação Sem Fila</span>
                         <span className="block text-xs text-gray-400 mt-0.5">Agendando previamente, você tem um consultor exclusivo e horário reservado.</span>
                       </div>
                     </div>
@@ -574,10 +574,10 @@ export default function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
               <div className="lg:col-span-7 text-left">
                 <span className="text-[#d9bc06] text-xs font-mono font-bold uppercase tracking-widest block mb-2">Sua visão com os melhores</span>
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold tracking-tight text-[#81a1c9]">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold tracking-tight text-gray-100">
                   Lentes Multifocais Alemãs e Japonesas de última geração
                 </h3>
-                <p className="text-brand-blue-200 text-xs sm:text-sm mt-4 leading-relaxed max-w-xl">
+                <p className="text-gray-300 text-xs sm:text-sm mt-4 leading-relaxed max-w-xl">
                   Parceria oficial credenciada com laboratórios de fabricação robotizada alemães e franceses. Fornecemos os tratamentos antirreflexo e filtros de luz digital mais avançados do mercado internacional com garantia estendida de 1 ano. 
                 </p>
                 <div className="flex flex-wrap gap-4 mt-6">
@@ -611,8 +611,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-[#335b9d] font-bold font-mono text-xs uppercase tracking-widest block mb-2">Excelência Clínica e Comercial</span>
-            <h2 className="text-3xl sm:text-4xl font-serif text-[#81a1c9] font-semibold">
+            <span className="text-gray-300 font-bold font-mono text-xs uppercase tracking-widest block mb-2">Excelência Clínica e Comercial</span>
+            <h2 className="text-3xl sm:text-4xl font-serif text-gray-100 font-semibold">
               Serviços desenhados para proteger sua saúde visual
             </h2>
             <div className="w-16 h-1 bg-[#d9bc06] mx-auto mt-4 rounded-full"></div>
@@ -631,19 +631,19 @@ export default function App() {
               return (
                 <div 
                   key={service.id} 
-                  className="bg-brand-blue-900/50 rounded-2xl p-6 border border-brand-blue-800/60 text-left hover:border-brand-blue-200 transition-colors flex flex-col justify-between"
+                  className="bg-brand-blue-800/50 rounded-2xl p-6 border border-brand-blue-800/60 text-left hover:border-brand-blue-200 transition-colors flex flex-col justify-between"
                   id={`service-card-${index}`}
                 >
                   <div>
-                    <div className="w-10 h-10 rounded-xl bg-brand-blue-50 text-[#335b9d] flex items-center justify-center mb-5">
+                    <div className="w-10 h-10 rounded-xl bg-brand-blue-50 text-gray-300 flex items-center justify-center mb-5">
                       <ServiceIcon className="w-5 h-5" />
                     </div>
-                    <h3 className="font-bold text-[#81a1c9] text-base mb-2">{service.title}</h3>
+                    <h3 className="font-bold text-gray-100 text-base mb-2">{service.title}</h3>
                     <p className="text-xs text-gray-400 leading-relaxed mb-4">{service.description}</p>
                   </div>
                   <div className="mt-4 pt-3 border-t border-neutral-250/50">
                     <span className="text-[10px] text-[#d9bc06] font-bold uppercase block tracking-wider">Benefício Primário:</span>
-                    <span className="text-xs font-semibold text-[#81a1c9] mt-0.5 block">{service.benefit}</span>
+                    <span className="text-xs font-semibold text-gray-100 mt-0.5 block">{service.benefit}</span>
                   </div>
                 </div>
               );
@@ -654,7 +654,7 @@ export default function App() {
       </section>
 
       {/* TESTIMONIALS SECTION - EMOTIONAL & STORIES */}
-      <section className="bg-brand-blue-900/60 py-20 sm:py-28 text-white relative overflow-hidden text-left border-b border-brand-blue-800" id="depoimentos">
+      <section className="bg-brand-blue-800/60 py-20 sm:py-28 text-white relative overflow-hidden text-left border-b border-brand-blue-800" id="depoimentos">
         <div className="absolute top-0 left-0 w-80 h-80 bg-brand-blue-100/40 rounded-full blur-3xl pointer-events-none"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-brand-yellow-100/30 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -663,8 +663,8 @@ export default function App() {
             
             {/* Context Header Side */}
             <div className="lg:col-span-4" id="testimonials-context">
-              <span className="text-[#335b9d] font-bold font-mono text-xs uppercase tracking-widest block mb-2">Comunidade e Depoimentos</span>
-              <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-[#81a1c9] leading-tight">
+              <span className="text-gray-300 font-bold font-mono text-xs uppercase tracking-widest block mb-2">Comunidade e Depoimentos</span>
+              <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-gray-100 leading-tight">
                 Mais do que óculos: <span className="text-brand-yellow-650 block italic font-normal font-serif">histórias reais de clareza ocular.</span>
               </h2>
               <p className="text-gray-300 text-sm mt-5 leading-relaxed">
@@ -673,11 +673,11 @@ export default function App() {
               
               <div className="mt-8 p-4 bg-brand-blue-50/80 rounded-2xl border border-brand-blue-150 inline-flex items-center gap-3 shadow-xs">
                 <div className="flex -space-x-2">
-                  <div className="w-8 h-8 rounded-full bg-indigo-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-[#81a1c9]">M</div>
-                  <div className="w-8 h-8 rounded-full bg-green-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-[#81a1c9]">J</div>
-                  <div className="w-8 h-8 rounded-full bg-amber-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-[#81a1c9]">R</div>
+                  <div className="w-8 h-8 rounded-full bg-indigo-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-gray-100">M</div>
+                  <div className="w-8 h-8 rounded-full bg-green-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-gray-100">J</div>
+                  <div className="w-8 h-8 rounded-full bg-amber-200 border-2 border-white flex items-center justify-center text-xs font-extrabold text-gray-100">R</div>
                 </div>
-                <div className="text-xs text-[#81a1c9]">
+                <div className="text-xs text-gray-100">
                   <span className="block font-bold">Nota 5,0 de 5 no Google ⭐</span>
                   <span className="text-brand-blue-800 font-medium">644 avaliações</span>
                 </div>
@@ -706,11 +706,11 @@ export default function App() {
                   </div>
 
                   <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
-                    <div className="w-9 h-9 rounded-full bg-brand-blue-50 text-[#335b9d] font-bold text-sm shrink-0 flex items-center justify-center border border-brand-blue-100">
+                    <div className="w-9 h-9 rounded-full bg-brand-blue-50 text-gray-300 font-bold text-sm shrink-0 flex items-center justify-center border border-brand-blue-100">
                       {testimonial.name[0]}
                     </div>
                     <div>
-                      <h4 className="font-bold text-[#81a1c9] text-xs sm:text-sm leading-tight">{testimonial.name}</h4>
+                      <h4 className="font-bold text-gray-100 text-xs sm:text-sm leading-tight">{testimonial.name}</h4>
                       <span className="text-[10px] text-gray-400 block mt-0.5">{testimonial.role} &bull; {testimonial.date}</span>
                     </div>
                   </div>
@@ -735,7 +735,7 @@ export default function App() {
               <span className="bg-brand-yellow-105 border border-brand-yellow-300 text-[#d9bc06] text-[10px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full">
                 Sua saúde em 1 clique
               </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-[#81a1c9] font-semibold mt-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-gray-100 font-semibold mt-3">
                 Agende Seu Exame de Vista Gratuito
               </h2>
               <p className="text-gray-400 text-xs sm:text-sm mt-2 leading-relaxed">
@@ -754,7 +754,7 @@ export default function App() {
                       placeholder="Ex: Mariana Silva"
                       value={bookingName}
                       onChange={(e) => setBookingName(e.target.value)}
-                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none focus:ring-2 focus:ring-brand-blue-600/20 text-[#81a1c9] font-medium"
+                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none focus:ring-2 focus:ring-brand-blue-600/20 text-gray-100 font-medium"
                       id="input-booking-name"
                     />
                   </div>
@@ -766,7 +766,7 @@ export default function App() {
                       placeholder="Ex: (11) 98888-8888"
                       value={bookingPhone}
                       onChange={(e) => setBookingPhone(e.target.value)}
-                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none focus:ring-2 focus:ring-brand-blue-600/20 text-[#81a1c9] font-medium"
+                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none focus:ring-2 focus:ring-brand-blue-600/20 text-gray-100 font-medium"
                       id="input-booking-phone"
                     />
                   </div>
@@ -794,7 +794,7 @@ export default function App() {
                       required
                       value={bookingDate}
                       onChange={(e) => setBookingDate(e.target.value)}
-                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none text-[#81a1c9] font-medium cursor-pointer"
+                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none text-gray-100 font-medium cursor-pointer"
                       id="input-booking-date"
                     />
                   </div>
@@ -803,7 +803,7 @@ export default function App() {
                     <select
                       value={bookingPeriod}
                       onChange={(e) => setBookingPeriod(e.target.value)}
-                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none text-[#81a1c9] font-medium cursor-pointer"
+                      className="w-full bg-brand-blue-800 rounded-xl px-4 py-3 text-sm border border-brand-blue-800 focus:bg-brand-blue-950 focus:outline-none text-gray-100 font-medium cursor-pointer"
                       id="input-booking-period"
                     >
                       <option value="manha">Manhã (09:00h às 12:00h)</option>
@@ -839,7 +839,7 @@ export default function App() {
                 <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-6">
                   <CheckCircle className="w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-bold text-[#81a1c9] mb-2">Sua solicitação foi enviada!</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">Sua solicitação foi enviada!</h3>
                 <p className="text-xs sm:text-sm text-gray-400 leading-relaxed mb-6">
                   Para sua agilidade, geramos uma conversa pré-formatada. Verifique seu aplicativo do WhatsApp para concluir o horário com o atendente.
                 </p>
@@ -850,7 +850,7 @@ export default function App() {
                     setBookingPhone('');
                     setBookingDate('');
                   }}
-                  className="text-[#335b9d] hover:text-brand-blue-800 text-xs font-semibold underline cursor-pointer"
+                  className="text-gray-300 hover:text-brand-blue-800 text-xs font-semibold underline cursor-pointer"
                   id="btn-reset-booking"
                 >
                   Novo agendamento / Limpar dados
@@ -879,9 +879,9 @@ export default function App() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <span className="text-lg font-serif font-bold text-[#81a1c9]">Ótica Acaz</span>
+                <span className="text-lg font-serif font-bold text-gray-100">Ótica Acaz</span>
               </div>
-              <p className="text-xs text-brand-blue-200 leading-relaxed">
+              <p className="text-xs text-gray-300 leading-relaxed">
                 Cuidado humanizado e rigor técnico para sua saúde visual. Encontre sua personalidade nas melhores armações exclusivas do showroom comercial.
               </p>
               <div className="flex gap-3 mt-6">
@@ -918,7 +918,7 @@ export default function App() {
             {/* Quick Links navigation */}
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Navegação</h4>
-              <ul className="space-y-2 text-xs text-brand-blue-200">
+              <ul className="space-y-2 text-xs text-gray-300">
                 <li><a href="#sobre-nos" className="hover:text-[#d9bc06] transition-colors block">Diferenciais</a></li>
                 <li><a href="#produtos-exclusivos" className="hover:text-[#d9bc06] transition-colors block">Experimentação Presencial</a></li>
                 <li><a href="#servicos-premium" className="hover:text-[#d9bc06] transition-colors block font-serif italic">Nossas Técnicas & Lentes</a></li>
@@ -930,7 +930,7 @@ export default function App() {
             {/* Hours */}
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Horário de Funcionamento</h4>
-              <ul className="space-y-2 text-xs text-brand-blue-200">
+              <ul className="space-y-2 text-xs text-gray-300">
                 <li>
                   <span className="font-semibold block text-white">Segunda a Sexta-feira:</span>
                   <span>08:30 às 17:30</span>
@@ -952,7 +952,7 @@ export default function App() {
             {/* Endereco e Contato */}
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Contato Oficial Local</h4>
-              <ul className="space-y-3.5 text-xs text-brand-blue-200">
+              <ul className="space-y-3.5 text-xs text-gray-300">
                 <li className="flex gap-2">
                   <MapPin className="w-4 h-4 text-[#d9bc06] shrink-0" />
                   <span>R. Dr. Fláquer, 209 - Centro, São Bernardo do Campo - SP, 09710-180</span>
@@ -961,7 +961,7 @@ export default function App() {
                   <Phone className="w-4 h-4 text-[#d9bc06] shrink-0" />
                   <div>
                     <span className="block font-semibold">Telefone &amp; WhatsApp: (11) 4125-7371</span>
-                    <span className="block text-[10px] text-[#335b9d] mt-1 leading-normal italic">(Fixo comercial e celular)</span>
+                    <span className="block text-[10px] text-gray-300 mt-1 leading-normal italic">(Fixo comercial e celular)</span>
                   </div>
                 </li>
                 <li className="pt-2">
@@ -981,9 +981,9 @@ export default function App() {
 
           </div>
 
-          <div className="border-t border-brand-blue-800/80 pt-8 mt-8 text-center text-xs text-[#335b9d] flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="border-t border-brand-blue-800/80 pt-8 mt-8 text-center text-xs text-gray-300 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p>&copy; 2026 Óticas Acaz. Todos os direitos reservados. CNPJ: 21.497.865/0001-85</p>
-            <p className="text-[10px] tracking-wide text-brand-blue-400 font-mono">
+            <p className="text-[10px] tracking-wide text-gray-400 font-mono">
               Precisão Óptica. Curadoria de Design de Alto Visual.
             </p>
           </div>
@@ -995,7 +995,7 @@ export default function App() {
         
         {/* Unread notification badge */}
         {showNotification && !isChatOpen && (
-          <div className="bg-brand-blue-950 text-[#81a1c9] px-4 py-2.5 rounded-xl shadow-xl border border-brand-blue-100 text-left max-w-[250px] mb-3 relative animate-bounce-slow">
+          <div className="bg-brand-blue-950 text-gray-100 px-4 py-2.5 rounded-xl shadow-xl border border-brand-blue-100 text-left max-w-[250px] mb-3 relative animate-bounce-slow">
             <button
               onClick={(e) => {
                 e.stopPropagation();
@@ -1035,13 +1035,13 @@ export default function App() {
                   </div>
                   <div>
                     <span className="font-bold text-xs sm:text-sm block">Suporte Ótica Acaz</span>
-                    <span className="text-[10px] text-[#335b9d] block leading-none">Online &mdash; Responde na hora</span>
+                    <span className="text-[10px] text-gray-300 block leading-none">Online &mdash; Responde na hora</span>
                   </div>
                 </div>
 
                 <button
                   onClick={() => setIsChatOpen(false)}
-                  className="text-brand-blue-200 hover:text-white transition-colors cursor-pointer"
+                  className="text-gray-300 hover:text-white transition-colors cursor-pointer"
                   title="Fechar Chat"
                   id="btn-close-widget"
                 >
@@ -1066,22 +1066,22 @@ export default function App() {
               </div>
 
               {/* Chat Quick Actions */}
-              <div className="p-3 border-t border-gray-100 flex flex-wrap gap-1.5 justify-start bg-brand-blue-900/50">
+              <div className="p-3 border-t border-gray-100 flex flex-wrap gap-1.5 justify-start bg-brand-blue-800/50">
                 <button
                   onClick={() => setChatMessage("Quero saber mais sobre Lentes Multifocais")}
-                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-[#81a1c9] rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
+                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-gray-100 rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
                 >
                   Lentes Multifocais
                 </button>
                 <button
                   onClick={() => setChatMessage("Agendar Exame de Vista Gratuito")}
-                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-[#81a1c9] rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
+                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-gray-100 rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
                 >
                   Exame Gratuito 🩺
                 </button>
                 <button
                   onClick={() => setChatMessage("Como funciona a consultoria de estilo presencial?")}
-                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-[#81a1c9] rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
+                  className="text-[10.5px] bg-brand-blue-950 border border-gray-250 hover:bg-brand-blue-50 text-gray-100 rounded-lg px-2.5 py-1.5 transition-colors cursor-pointer"
                 >
                   Consultoria de Estilo 👓
                 </button>
@@ -1101,7 +1101,7 @@ export default function App() {
                   placeholder="Escreva sua pergunta ou selecione acima..."
                   value={chatMessage}
                   onChange={(e) => setChatMessage(e.target.value)}
-                  className="bg-brand-blue-800 flex-1 rounded-xl px-3 py-2 text-xs border border-brand-blue-800 outline-none text-[#81a1c9] focus:bg-brand-blue-950"
+                  className="bg-brand-blue-800 flex-1 rounded-xl px-3 py-2 text-xs border border-brand-blue-800 outline-none text-gray-100 focus:bg-brand-blue-950"
                   id="chat-user-input"
                 />
                 <button

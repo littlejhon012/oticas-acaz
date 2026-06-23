@@ -6,20 +6,20 @@
   --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  /* Premium Royal Optical Blue from Logo */
-  --color-brand-blue-50: #152540;
-  --color-brand-blue-100: #1c3256;
-  --color-brand-blue-150: #213a64;
-  --color-brand-blue-200: #274577;
-  --color-brand-blue-300: #335b9d;
-  --color-brand-blue-400: #4272c2;
-  --color-brand-blue-500: #628bd0;
-  --color-brand-blue-600: #0a1429;
-  --color-brand-blue-650: #091225;
-  --color-brand-blue-700: #081021;
-  --color-brand-blue-800: #050b17;
-  --color-brand-blue-900: #040811;
-  --color-brand-blue-950: #03060c;
+    /* Premium Royal Optical Blue from Logo */
+  --color-brand-blue-50: #003df5;
+  --color-brand-blue-100: #0033cc;
+  --color-brand-blue-150: #002bb3;
+  --color-brand-blue-200: #002699;
+  --color-brand-blue-300: #002283;
+  --color-brand-blue-400: #001e75;
+  --color-brand-blue-500: #001a66;
+  --color-brand-blue-600: #00175c;
+  --color-brand-blue-650: #001452;
+  --color-brand-blue-700: #001247;
+  --color-brand-blue-800: #000f3d;
+  --color-brand-blue-900: #000d33;
+  --color-brand-blue-950: #002283;
 
   /* Sophisticated Gold / Warm Amber Sun */
   --color-brand-yellow-50: #fffbeb;
@@ -31,9 +31,9 @@
   --color-brand-yellow-700: #b45309;
 
   /* Earthy Warm Natural Grays -> Deep Blues for Canvas */
-  --color-natural-50: #0b1528;
-  --color-natural-100: #101c34;
-  --color-natural-200: #182848;
+  --color-natural-50: #002283;
+  --color-natural-100: #001f7a;
+  --color-natural-200: #001a66;
   --color-natural-800: #e2e8f0;
   --color-natural-900: #f8fafc;
 }
