@@ -70,14 +70,14 @@ export default function App() {
     <div className="relative min-h-screen font-sans bg-brand-blue-950 text-white overflow-x-hidden selection:bg-brand-blue-100 selection:text-gray-200" id="otica-root">
       
       {/* EXCLUSIVE TOP ANNOUNCEMENT BAR */}
-      <div className="bg-brand-blue-950 text-white text-xs py-2 px-4 border-b border-brand-blue-800 text-center relative z-40 font-medium" id="top-bar">
+      <div className="bg-[#fec506] text-black text-xs py-2 px-4 border-b border-brand-blue-800 text-center relative z-40 font-medium" id="top-bar">
         <div className="max-w-7xl mx-auto flex justify-center items-center gap-6">
           <span className="flex items-center gap-1.5 py-0.5">
-            <span className="w-2 h-2 rounded-full bg-brand-yellow-400 animate-pulse"></span>
+            <span className="w-2 h-2 rounded-full bg-black animate-pulse"></span>
             <strong>Nova Coleção Italiana 2026:</strong> Peças de titânio e cristais translúcidos exclusivas em showroom.
           </span>
           <span className="hidden md:inline-flex items-center gap-1.5">
-            <Clock className="w-3.5 h-3.5 text-[#d9bc06]" />
+            <Clock className="w-3.5 h-3.5 text-black" />
             Exames computadorizados hoje: agende rápido com retorno em até 24h.
           </span>
         </div>
@@ -98,8 +98,8 @@ export default function App() {
               />
             </div>
             <div>
-              <span className="text-xl font-serif font-bold text-gray-100 tracking-tight block">
-                Óticas <span className="text-[#d9bc06] font-sans font-extrabold uppercase text-[15px] tracking-widest block sm:inline sm:text-lg sm:capitalize sm:font-serif leading-none">Acaz</span>
+              <span className="text-xl font-serif font-bold text-[#fec506] tracking-tight block">
+                Óticas <span className="text-[#fec506] font-sans font-extrabold uppercase text-[15px] tracking-widest block sm:inline sm:text-lg sm:capitalize sm:font-serif leading-none">Acaz</span>
               </span>
               <span className="text-[10px] text-gray-400 tracking-widest font-mono uppercase block -mt-1 leading-none">
                 Estilo & Precisão
@@ -108,11 +108,11 @@ export default function App() {
           </a>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold tracking-wide text-gray-100/80">
-            <a href="#produtos-exclusivos" className="hover:text-gray-300 transition-colors">Nossa Loja</a>
-            <a href="#cuidados-clinicos" className="hover:text-gray-300 transition-colors">Exames de Vista</a>
-            <a href="#sobre-nos" className="hover:text-gray-300 transition-colors">Por Que Nós?</a>
-            <a href="#depoimentos" className="hover:text-gray-300 transition-colors">Opiniões</a>
+          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold tracking-wide text-[#fec506]">
+            <a href="#produtos-exclusivos" className="hover:opacity-80 transition-colors">Nossa Loja</a>
+            <a href="#cuidados-clinicos" className="hover:opacity-80 transition-colors">Exames de Vista</a>
+            <a href="#sobre-nos" className="hover:opacity-80 transition-colors">Por Que Nós?</a>
+            <a href="#depoimentos" className="hover:opacity-80 transition-colors">Opiniões</a>
           </nav>
 
           {/* QUICK HEADER CTA */}
@@ -122,7 +122,7 @@ export default function App() {
               className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-gray-300 transition-colors px-3 py-2"
               id="header-phone-accent"
             >
-              <Phone className="w-4 h-4 text-[#d9bc06]" />
+              <Phone className="w-4 h-4 text-[#fec506]" />
               (11) 4125-7371
             </a>
             
@@ -131,7 +131,7 @@ export default function App() {
               className="bg-brand-blue-600 hover:bg-brand-blue-700 text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-xl shadow-md shadow-brand-blue-650/15 transition-all flex items-center gap-2 hover:scale-105 active:scale-95"
               id="header-cta-booking"
             >
-              <Calendar className="w-4 h-4 text-[#d9bc06] sm:w-4.5 sm:h-4.5" />
+              <Calendar className="w-4 h-4 text-[#fec506] sm:w-4.5 sm:h-4.5" />
               Agendar Exame
             </a>
           </div>
@@ -154,21 +154,21 @@ export default function App() {
               
               {/* BRAND EMBLEM TAG */}
               <div 
-                className="inline-flex items-center gap-2 bg-brand-yellow-150 border border-brand-yellow-250 text-[#d9bc06] text-xs font-semibold px-3 py-1.5 rounded-full mb-6"
+                className="inline-flex items-center gap-2 bg-brand-yellow-150 border border-brand-yellow-250 text-[#fec506] text-xs font-semibold px-3 py-1.5 rounded-full mb-6"
                 id="hero-tag"
               >
-                <Sparkle className="w-3.5 h-3.5 text-[#d9bc06] fill-brand-yellow-500 animate-spin-slow" />
+                <Sparkle className="w-3.5 h-3.5 text-[#fec506] fill-brand-yellow-500 animate-spin-slow" />
                 Um Novo Olhar Para o Seu Bem-Estar e Estilo
               </div>
 
               {/* HEADING (EMOTIONAL & FORMIDABLE) */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-gray-100 leading-[1.1] mb-6">
-                A vida é feita de detalhes. <span className="text-gray-300 block italic font-medium font-serif mt-1">Enxergue-os com afeto e elegância.</span>
+                A vida é feita de detalhes. <span className="text-[#fec506] block italic font-medium font-serif mt-1">Enxergue-os com afeto e elegância.</span>
               </h1>
 
               {/* SUBHEADLINE (WARM, HUMAN & EMOTIONAL) */}
               <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed max-w-2xl mb-8">
-                Na <strong>Ótica Acaz</strong>, cuidar da sua saúde visual é uma arte humana. Aliamos tecnologia óptica de ponta a uma curadoria estética cuidadosa que destaca a sua beleza real e protege o que você mais ama.
+                Na <strong className="text-[#fec506]">Ótica Acaz</strong>, cuidar da sua saúde visual é uma arte humana. Aliamos tecnologia óptica de ponta a uma curadoria estética cuidadosa que destaca a sua beleza real e protege o que você mais ama.
               </p>
 
               {/* ACTION BUTTONS */}
@@ -179,7 +179,7 @@ export default function App() {
                   id="hero-primary-cta"
                 >
                   Conhecer Modelos em Loja
-                  <ChevronRight className="w-5 h-5 text-[#d9bc06] group-hover:translate-x-1 transition-transform" />
+                  <ChevronRight className="w-5 h-5 text-[#fec506] group-hover:translate-x-1 transition-transform" />
                 </a>
 
                 <a
@@ -232,7 +232,7 @@ export default function App() {
                     <MessageCircle className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <span className="text-xs text-[#d9bc06] block font-mono">Suporte Imediato</span>
+                    <span className="text-xs text-[#fec506] block font-mono">Suporte Imediato</span>
                     <span className="font-bold text-xs sm:text-sm leading-tight block">Fale Conosco Online</span>
                   </div>
                 </div>
@@ -263,13 +263,13 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-gray-300 font-mono text-xs uppercase tracking-widest font-bold block mb-2">História e Compromisso</span>
+            <span className="text-[#fec506] font-mono text-xs uppercase tracking-widest font-bold block mb-2">História e Compromisso</span>
             <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-gray-100">
               O cuidado com seus olhos merece um atendimento humano.
             </h2>
-            <div className="w-16 h-1 bg-[#d9bc06] mx-auto mt-4 rounded-full"></div>
+            <div className="w-16 h-1 bg-[#fec506] mx-auto mt-4 rounded-full"></div>
             <p className="text-gray-400 mt-5 text-sm sm:text-base leading-relaxed">
-              Fundada em valores de respeito, honestidade e excelência, a <strong>Ótica Acaz</strong> redefiniu a forma com que as pessoas escolhem óculos na região. Longe de vendas automáticas, criamos relações genuínas orientadas por amor à saúde e design.
+              Fundada em valores de respeito, honestidade e excelência, a <strong className="text-[#fec506]">Ótica Acaz</strong> redefiniu a forma com que as pessoas escolhem óculos na região. Longe de vendas automáticas, criamos relações genuínas orientadas por amor à saúde e design.
             </p>
           </div>
 
@@ -305,14 +305,14 @@ export default function App() {
                     <div className="w-12 h-12 rounded-xl bg-brand-blue-50 text-gray-300 flex items-center justify-center mb-6 border border-brand-blue-100">
                       <IconComp className="w-6 h-6" />
                     </div>
-                    <span className="text-[10px] font-mono font-bold text-[#d9bc06] uppercase tracking-widest block mb-2">
+                    <span className="text-[10px] font-mono font-bold text-[#fec506] uppercase tracking-widest block mb-2">
                       {pillar.badge}
                     </span>
                     <h3 className="text-lg font-bold text-gray-100 mb-3">{pillar.title}</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">{pillar.desc}</p>
                   </div>
                   <div className="mt-6 pt-4 border-t border-brand-blue-800/50 flex items-center text-gray-300 text-xs font-semibold gap-1">
-                    Saúde em Primeiro Lugar <CheckCircle className="w-3.5 h-3.5 text-[#d9bc06]" />
+                    Saúde em Primeiro Lugar <CheckCircle className="w-3.5 h-3.5 text-[#fec506]" />
                   </div>
                 </div>
               );
@@ -370,7 +370,7 @@ export default function App() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8 w-full" id="grid-clinic-perks">
                 <div className="flex gap-3">
-                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#d9bc06] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#fec506] flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
@@ -380,7 +380,7 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#d9bc06] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#fec506] flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
@@ -390,7 +390,7 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#d9bc06] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#fec506] flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
@@ -400,7 +400,7 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#d9bc06] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-brand-yellow-100 text-[#fec506] flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
@@ -500,7 +500,7 @@ export default function App() {
                   className="bg-brand-blue-600 hover:bg-brand-blue-700 text-white font-semibold text-center text-sm py-4 px-8 rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 duration-200 flex items-center justify-center gap-2 group"
                 >
                   Agendar Visita com Especialista
-                  <ChevronRight className="w-4 h-4 text-[#d9bc06] group-hover:translate-x-1 transition-transform" />
+                  <ChevronRight className="w-4 h-4 text-[#fec506] group-hover:translate-x-1 transition-transform" />
                 </a>
                 
                 <a
@@ -509,7 +509,7 @@ export default function App() {
                   rel="noreferrer"
                   className="bg-brand-blue-800 hover:bg-brand-blue-800 text-white font-semibold text-center text-sm py-4 px-8 rounded-xl border border-gray-200 shadow-sm transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
                 >
-                  <MapPin className="w-4 h-4 text-[#d9bc06]" />
+                  <MapPin className="w-4 h-4 text-[#fec506]" />
                   Ver Rota no Google Maps
                 </a>
               </div>
@@ -568,12 +568,12 @@ export default function App() {
 
           {/* EDITORIAL BANNER FOR EXCLUSIVE SERVICES */}
           <div className="bg-brand-blue-950 text-white rounded-3xl p-8 sm:p-12 mt-16 relative overflow-hidden border border-brand-blue-800 shadow-xl" id="editorial-luxury-banner">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-[#d9bc06]/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#fec506]/10 rounded-full blur-3xl pointer-events-none"></div>
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-brand-blue-600/30 rounded-full blur-3xl pointer-events-none"></div>
             
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
               <div className="lg:col-span-7 text-left">
-                <span className="text-[#d9bc06] text-xs font-mono font-bold uppercase tracking-widest block mb-2">Sua visão com os melhores</span>
+                <span className="text-[#fec506] text-xs font-mono font-bold uppercase tracking-widest block mb-2">Sua visão com os melhores</span>
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold tracking-tight text-gray-100">
                   Lentes Multifocais Alemãs e Japonesas de última geração
                 </h3>
@@ -615,7 +615,7 @@ export default function App() {
             <h2 className="text-3xl sm:text-4xl font-serif text-gray-100 font-semibold">
               Serviços desenhados para proteger sua saúde visual
             </h2>
-            <div className="w-16 h-1 bg-[#d9bc06] mx-auto mt-4 rounded-full"></div>
+            <div className="w-16 h-1 bg-[#fec506] mx-auto mt-4 rounded-full"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="services-cards-grid">
@@ -642,7 +642,7 @@ export default function App() {
                     <p className="text-xs text-gray-400 leading-relaxed mb-4">{service.description}</p>
                   </div>
                   <div className="mt-4 pt-3 border-t border-neutral-250/50">
-                    <span className="text-[10px] text-[#d9bc06] font-bold uppercase block tracking-wider">Benefício Primário:</span>
+                    <span className="text-[10px] text-[#fec506] font-bold uppercase block tracking-wider">Benefício Primário:</span>
                     <span className="text-xs font-semibold text-gray-100 mt-0.5 block">{service.benefit}</span>
                   </div>
                 </div>
@@ -694,7 +694,7 @@ export default function App() {
                 >
                   <div>
                     {/* Stars bar */}
-                    <div className="flex gap-1 mb-4 text-[#d9bc06]">
+                    <div className="flex gap-1 mb-4 text-[#fec506]">
                       {Array.from({ length: testimonial.rating }).map((_, i) => (
                         <span key={i} className="text-sm">★</span>
                       ))}
@@ -732,7 +732,7 @@ export default function App() {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-brand-blue-600/10 rounded-full blur-2xl pointer-events-none"></div>
 
             <div className="text-center max-w-2xl mx-auto mb-8 relative z-10">
-              <span className="bg-brand-yellow-105 border border-brand-yellow-300 text-[#d9bc06] text-[10px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full">
+              <span className="bg-brand-yellow-105 border border-brand-yellow-300 text-[#fec506] text-[10px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full">
                 Sua saúde em 1 clique
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-gray-100 font-semibold mt-3">
@@ -889,7 +889,7 @@ export default function App() {
                   href="https://maps.google.com/?q=R.+Dr.+Fl%C3%A1quer,+209+-+Centro,+S%C3%A3o+Bernardo+do+Campo+-+SP,+09710-180" 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="w-8 h-8 rounded-full bg-white/5 hover:bg-brand-blue-700/50 text-[#d9bc06] flex items-center justify-center border border-white/10 transition-colors" 
+                  className="w-8 h-8 rounded-full bg-white/5 hover:bg-brand-blue-700/50 text-[#fec506] flex items-center justify-center border border-white/10 transition-colors" 
                   title="Google Maps da loja"
                 >
                   <MapPinned className="w-4 h-4" />
@@ -919,11 +919,11 @@ export default function App() {
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Navegação</h4>
               <ul className="space-y-2 text-xs text-gray-300">
-                <li><a href="#sobre-nos" className="hover:text-[#d9bc06] transition-colors block">Diferenciais</a></li>
-                <li><a href="#produtos-exclusivos" className="hover:text-[#d9bc06] transition-colors block">Experimentação Presencial</a></li>
-                <li><a href="#servicos-premium" className="hover:text-[#d9bc06] transition-colors block font-serif italic">Nossas Técnicas & Lentes</a></li>
-                <li><a href="#cuidados-clinicos" className="hover:text-[#d9bc06] transition-colors block">Exame Optométrico</a></li>
-                <li><a href="#sobre-nos" className="hover:text-[#d9bc06] transition-colors block">Nossos Diferenciais</a></li>
+                <li><a href="#sobre-nos" className="hover:text-[#fec506] transition-colors block">Diferenciais</a></li>
+                <li><a href="#produtos-exclusivos" className="hover:text-[#fec506] transition-colors block">Experimentação Presencial</a></li>
+                <li><a href="#servicos-premium" className="hover:text-[#fec506] transition-colors block font-serif italic">Nossas Técnicas & Lentes</a></li>
+                <li><a href="#cuidados-clinicos" className="hover:text-[#fec506] transition-colors block">Exame Optométrico</a></li>
+                <li><a href="#sobre-nos" className="hover:text-[#fec506] transition-colors block">Nossos Diferenciais</a></li>
               </ul>
             </div>
 
@@ -943,7 +943,7 @@ export default function App() {
                   <span className="font-semibold block text-white">Domingos:</span>
                   <span>Fechado</span>
                 </li>
-                <li className="text-[#d9bc06] text-xs font-semibold pt-1">
+                <li className="text-[#fec506] text-xs font-semibold pt-1">
                   📋 Atendimento sob agendamento
                 </li>
               </ul>
@@ -954,11 +954,11 @@ export default function App() {
               <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Contato Oficial Local</h4>
               <ul className="space-y-3.5 text-xs text-gray-300">
                 <li className="flex gap-2">
-                  <MapPin className="w-4 h-4 text-[#d9bc06] shrink-0" />
+                  <MapPin className="w-4 h-4 text-[#fec506] shrink-0" />
                   <span>R. Dr. Fláquer, 209 - Centro, São Bernardo do Campo - SP, 09710-180</span>
                 </li>
                 <li className="flex gap-2">
-                  <Phone className="w-4 h-4 text-[#d9bc06] shrink-0" />
+                  <Phone className="w-4 h-4 text-[#fec506] shrink-0" />
                   <div>
                     <span className="block font-semibold">Telefone &amp; WhatsApp: (11) 4125-7371</span>
                     <span className="block text-[10px] text-gray-300 mt-1 leading-normal italic">(Fixo comercial e celular)</span>
@@ -1008,7 +1008,7 @@ export default function App() {
             </button>
             <div className="flex gap-2 items-center">
               <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
-              <span className="text-[10px] text-[#d9bc06] font-bold uppercase tracking-wider">Atendimento Acaz</span>
+              <span className="text-[10px] text-[#fec506] font-bold uppercase tracking-wider">Atendimento Acaz</span>
             </div>
             <p className="text-xs text-gray-300 font-medium leading-relaxed mt-1">
               Olá! Em que podemos ajudar com sua visão hoje?
