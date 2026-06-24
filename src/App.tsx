@@ -43,7 +43,7 @@ export default function App() {
   const [chatMessage, setChatMessage] = useState<string>('');
 
   // WhatsApp core config
-  const DEFAULT_PHONE = "551141257371"; // Official commercial WhatsApp
+  const DEFAULT_PHONE = "5511958103641"; // Official commercial WhatsApp
 
   const getGeneralWhatsAppLink = (messageText: string) => {
     return `https://api.whatsapp.com/send?phone=${DEFAULT_PHONE}&text=${encodeURIComponent(messageText)}`;
@@ -118,12 +118,12 @@ export default function App() {
           {/* QUICK HEADER CTA */}
           <div className="flex items-center gap-3">
             <a 
-              href="tel:1141257371" 
+              href="tel:5511958103641" 
               className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-gray-300 transition-colors px-3 py-2"
               id="header-phone-accent"
             >
               <Phone className="w-4 h-4 text-[#fec506]" />
-              (11) 4125-7371
+              (11) 95810-3641
             </a>
             
             <a
@@ -960,7 +960,7 @@ export default function App() {
                 <li className="flex gap-2">
                   <Phone className="w-4 h-4 text-[#fec506] shrink-0" />
                   <div>
-                    <span className="block font-semibold">Telefone &amp; WhatsApp: (11) 4125-7371</span>
+                    <span className="block font-semibold">Telefone &amp; WhatsApp: (11) 95810-3641</span>
                     <span className="block text-[10px] text-gray-300 mt-1 leading-normal italic">(Fixo comercial e celular)</span>
                   </div>
                 </li>
